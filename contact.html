@@ -12,6 +12,7 @@ Plan to Create Webpage
 5. create container for text in Footer
 6. figure out how to align form fields to right
 7. figure out how to change link color when 'selected'
+8. figure out how to increase font size for select letters
 
 -->
 
@@ -35,20 +36,21 @@ Plan to Create Webpage
         <ul>
           <a href='#'><li>HOME</li></a>
           <a href='#'><li>ABOUT</li></a>
-          <a href='#'><li>CONTACT</li></a>
+          <a href='contact.html'><li>CONTACT</li></a>
         </ul>
       </section>
       <section id='menu_social_icons'>
         <ul>
-          <a href="#"><li></li></a>
-          <a href="#"><li></li></a>
-          <a href="#"><li></li></a>
+          <a href='http://www.facebook.com' target='_blank'><li><img src='http://i.imgur.com/ShoKGNB.png'></li></a>
+          <a href='http://www.twitter.com' target='_blank'><li><img src='http://i.imgur.com/u4ITNSd.png'></li></a>
+          <a href='http://www.instagram.com' target='_blank'><li><img src='http://i.imgur.com/UJwwh4V.png'></li></a>
+          <a href='http://www.linkedin.com' target='_blank'><li><img src='http://i.imgur.com/P0Momgf.png'></li></a>
         </ul>
       </section>
     </header>
     <main>
       <section id='banner_img'>
-        <img src='http://placehold.it/978x494'>
+        <img src='http://placehold.it/1440x550'>
         <section id='banner_overlay'>
           <h1>CAT CHAT!</h1>
         </section>
@@ -63,9 +65,8 @@ Plan to Create Webpage
         <label for='subject_field'>Subject:</label>
         <input id='subject_field' type='text' name='subject_field' required></input>
         <label for='message_field'>Message:</label>
-        <textarea name='message_field' cols='1' rows='2'required></input>
-        <label for='contact_button'>CONTACT US</label>
-        <input id='contact_button' type='submit' name='contact_button'>
+        <textarea name='message_field' cols='25' rows='3'required></textarea>
+        <button type='button'>CONTACT US</button>
       </form>
     </main>
     <footer>
