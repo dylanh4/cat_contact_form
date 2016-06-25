@@ -11,5 +11,70 @@ Plan to Create Webpage
   4d. form
 5. create container for text in Footer
 6. figure out how to align form fields to right
+7. figure out how to change link color when 'selected'
+8. figure out how to increase font size for select letters
 
 -->
+
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>The Kitties || Contact Form</title>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+    <link rel='stylesheet' href='reset.css'>
+    <link rel='stylesheet' href='style.css'>
+  </head>
+  <body>
+    <header>
+      <section id='menu_highlights'>
+        <ul>
+          <li></li>
+          <li></li>
+        </ul>
+      </section>
+      <section id='menu_links'>
+        <ul>
+          <a href='#'><li>HOME</li></a>
+          <a href='#'><li>ABOUT</li></a>
+          <a href='contact.html'><li class='selected_link'>CONTACT</li></a>
+        </ul>
+      </section>
+      <section id='menu_social_icons'>
+        <ul>
+          <a href='http://www.facebook.com' target='_blank'><li><img src='http://i.imgur.com/ShoKGNB.png'></li></a>
+          <a href='http://www.twitter.com' target='_blank'><li><img src='http://i.imgur.com/u4ITNSd.png'></li></a>
+          <a href='http://www.instagram.com' target='_blank'><li><img src='http://i.imgur.com/UJwwh4V.png'></li></a>
+          <a href='http://www.linkedin.com' target='_blank'><li><img src='http://i.imgur.com/P0Momgf.png'></li></a>
+        </ul>
+      </section>
+    </header>
+    <main>
+      <section id='banner_img'>
+        <img src='http://placekitten.com/1440/550'>
+        <section id='banner_overlay'>
+          <h1>CAT CHAT!</h1>
+        </section>
+      </section>
+      <section id='sub_banner'>
+        <h2>Let's Talk About Cats!</h2>
+        <p>__________________</p>
+        <form id='cat_form'>
+          <label class='label' for='name_field'>Name:</label>
+          <input class='field_input' type='text' name='name_field' required>
+          <label class='label' for='email_field'>E-Mail:</label>
+          <input class='field_input' type='email' name='email_field' required></input>
+          <label class='label' for='subject_field'>Subject:</label>
+          <input class='field_input' type='text' name='subject_field' required></input>
+          <label class='label' for='message_field'>Message:</label>
+          <textarea class='field_input' name='message_field' cols='1' rows='2' required></textarea>
+          <button class='field_input' type='button'>CONTACT US</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>
+        Copyright 2016 &copy; The Kitties, kitty@kitty.cat
+      </p>
+    </footer>
+  </body>
+</html>
