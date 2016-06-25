@@ -4,10 +4,6 @@
   font-weight: 100;
 }
 
-a:active {
-  color: #FFFFFF;
-}
-
 a:hover {
   cursor: pointer;
 }
@@ -80,6 +76,10 @@ header {
 #menu_social_icons img {
   max-width: 100%;
   max-height: 100%;
+}
+
+#menu_links ul .selected_link {
+  color: #FFFFFF;
 }
 
 /* main styles */
